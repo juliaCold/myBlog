@@ -1,3 +1,5 @@
+@import url("post-decoration.css");
+
 * {
     box-sizing: border-box;
 }
@@ -44,45 +46,6 @@ body {
 .post_list .post {
     width: 48%;
 }
-
-.post {
-    border: 2px solid #cccccc;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 2rem;
-    color: rgb(203, 216, 206);
-    background-image: url(../images/card-background.jpg);
-    opacity: 0.9;
-}
-
-
-.post--world .post__tag {
-    color: rgb(81, 164, 81);
-}
-
-.post__tag {
-    margin-top: 0;
-    font-size: .75rem;
-    color: grey;
-}
-
-.post__link {
-    color: rgb(81, 164, 81);
-
-}
-
-.post__title {
-    font-family: serif;
-    margin-bottom: 0;
-}
-
-.post__date {
-    font-size: .75rem;
-    margin-top: 0;
-}
-
 
 .footer {
     background-color: rgb(186, 215, 186);

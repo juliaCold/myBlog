@@ -1,0 +1,25 @@
+.avatar {
+    width: 18rem;
+    height: 30rem;
+    padding: 3px;
+    margin: 3px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .avatar {
+        width: 10rem;
+        height: 18rem;
+    }
+  }
+
+.content-info {
+    max-width: 660px;
+    min-height: 50vh;
+    padding: 5px;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    font-style: italic;
+    font-weight: 800;
+    word-spacing: 0.75em;
+}
